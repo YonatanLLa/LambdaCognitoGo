@@ -5,4 +5,4 @@ set GOOS=linux
 set GOARCH=amd64
 go build main.go
 del main.zip
-tar.exe -9 -a -cf main.zip main
+tar.exe -r -a -cf main.zip main
